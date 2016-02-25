@@ -9,5 +9,8 @@
     },
     "dependencies": {
         "Fibonacci.Logic": ""
+    },
+    "commands": {
+        "start":"Fibonacci.Console"
     }
 }
