@@ -6,7 +6,7 @@ namespace Fibonacci
         {
             System.Console.WriteLine("Test");
             
-            var calculator = new IterativeCalculator();
+            var calculator = new Calculator();
             var result = calculator.FibonacciNumber(0);
             System.Console.WriteLine("0: {0}", result);
         }

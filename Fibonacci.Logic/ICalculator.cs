@@ -2,6 +2,6 @@ namespace Fibonacci
 {
     public interface ICalculator
     {
-           ulong FibonacciNumber(ulong index);     
+           int FibonacciNumber(int index);     
     }
 }
