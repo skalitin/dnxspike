@@ -4,11 +4,12 @@ namespace Fibonacci
     {
         public static void Main(string[] arguments)
         {
-            System.Console.WriteLine("Test");
+            System.Console.WriteLine("Hello!");
             
+            var number = 5;            
             var calculator = new Calculator();
-            var result = calculator.FibonacciNumber(0);
-            System.Console.WriteLine("0: {0}", result);
+            var result = calculator.FibonacciNumber(number);
+            System.Console.WriteLine("Fibonacci({0}) = {1}", number, result);
         }
     }
 }
