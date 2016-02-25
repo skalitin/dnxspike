@@ -6,11 +6,5 @@
                 "System.Console": "4.0.0-beta-*"
             }
         }
-    },
-    "dependencies": {
-        "Fibonacci.Logic": ""
-    },
-    "commands": {
-        "start" : "Fibonacci.Console"
     }
 }
