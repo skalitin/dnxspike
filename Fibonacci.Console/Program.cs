@@ -1,5 +1,3 @@
-using System;
-
 namespace Fibonacci.Console
 {
     static class Program
